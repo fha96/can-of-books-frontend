@@ -1,11 +1,19 @@
-# Start your own "Can of Books" App
+# BestBooks
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Fahad Zidan
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-## What can books do?
+## Overview
+First feature I have added (Auth0) 
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Getting Started
+Create repo, clone it, create react app and then start coding to add Auth0 
 
-## Use this template
+## Architecture
+JS-React-ReactBootstrap-Auth0
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Change Log
+8-8-2022
+
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
