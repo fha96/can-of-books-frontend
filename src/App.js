@@ -9,7 +9,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Profile from './components/Profile';
+import ProfileU from './components/Profile';
+import Profile from './About';
 class App extends React.Component {
  
   render() {
@@ -26,6 +27,11 @@ class App extends React.Component {
               </Route>
             <Route 
               exact path="/profile"
+              element={<ProfileU/>}
+            >
+            </Route>
+            <Route 
+              exact path="/about"
               element={<Profile/>}
             >
             </Route>

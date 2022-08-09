@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withAuth0 } from '@auth0/auth0-react';
 import CardInfo from './CardInfo';
 
-class Profile extends Component {
+class ProfileU extends Component {
   render() {
     const { user,isAuthenticated } = this.props.auth0;
    
@@ -17,4 +17,4 @@ class Profile extends Component {
   }
 }
 
-export default withAuth0(Profile);
+export default withAuth0(ProfileU);
