@@ -12,6 +12,7 @@ class Header extends React.Component {
           <Navbar.Brand>My Favorite Books</Navbar.Brand>
           <NavItem ><Link to="/" className="nav-link" >Home &nbsp;</Link></NavItem>
           <NavItem ><Link to="/profile" className="nav-link" >Profile&nbsp;&nbsp;</Link></NavItem>
+          <NavItem ><Link to="/about" className="nav-link" >About&nbsp;&nbsp;</Link></NavItem>
           <NavItem ><br/><AuthButtons /></NavItem>
           {/* PLACEHOLDER: render a navigation link to the about page */}
         </Navbar>
