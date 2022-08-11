@@ -7,7 +7,7 @@ export default class BooksTable extends React.Component{
 
 render(){
     return(
-
+<>
 <Table striped bordered hover>
       <thead>
         <tr>
@@ -24,6 +24,8 @@ render(){
         </tr>
       </tbody>
     </Table>
+    
+    </>
     )
 }
 
